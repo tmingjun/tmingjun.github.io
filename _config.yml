@@ -13,6 +13,12 @@ comment:
     #disqus: leopard
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
+    gitalk:
+        clientID: a2143f8d63e01a53b7d8
+        clientSecret: fce41b6722b7f4a8a949b9d958cfa3e54a8ec2d5
+        repo: https://github.com/tmingjun/tmingjun.github.io
+        owner: tmingjun
+        admin: tmingjun
 
 # Social
 social:

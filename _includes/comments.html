@@ -40,6 +40,22 @@
     });
     gitment.render('gitmentContainer');
     </script>
+  {% elsif site.comment.gitalk %}
+    <div id="gitalk-container"></div>
+    <script>
+      const gitalk = new Gitalk({
+         clientID: '{{ site.comment.gitalk.clientID }}',
+         clientSecret: '{{ site.comment.gitalk.clientSecret }}',
+         repo: '{{ site.comment.gitalk.repo }}',
+         owner: '{{ site.comment.gitalk.owner }}',
+         admin: ['{{ site.comment.gitalk.admin }}'],
+         id: location.pathname,      // Ensure uniqueness and length less than 50
+         distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
   {% endif %}
 
 </section>
