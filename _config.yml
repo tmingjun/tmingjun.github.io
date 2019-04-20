@@ -27,9 +27,8 @@ social:
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-#baidu:
-#    id:   
-
+baidu:
+    id: b85449d97ccb5c19e8263f3a5dcdf99e
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 #ga:
