@@ -16,7 +16,7 @@ comment:
     gitalk:
         clientID: a2143f8d63e01a53b7d8
         clientSecret: fce41b6722b7f4a8a949b9d958cfa3e54a8ec2d5
-        repo: https://github.com/tmingjun/tmingjun.github.io
+        repo: tmingjun.github.io
         owner: tmingjun
         admin: tmingjun
 
